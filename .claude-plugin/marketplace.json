@@ -1,0 +1,36 @@
+{
+  "name": "firecrawl",
+  "description": "Search and access more data with Firecrawl, as a hosted search MCP plugin for Claude Code.",
+  "owner": {
+    "name": "Firecrawl"
+  },
+  "plugins": [
+    {
+      "name": "firecrawl",
+      "source": "./",
+      "version": "2.10.0",
+      "description": "Search the web and get answers from the source. Ask about a company, a person, a law, an election, a research paper or a stock, and Firecrawl finds the provider that has it in Alexandria, its library of data sources, and shows where the answer came from. For everything else, it searches and reads the live web.",
+      "skills": [
+        "./skills/brand-identity",
+        "./skills/business-contact-research",
+        "./skills/design",
+        "./skills/enrich-lead",
+        "./skills/fantasy-sports",
+        "./skills/find-leads",
+        "./skills/firecrawl",
+        "./skills/firecrawl-deep-research",
+        "./skills/flights-and-hotels",
+        "./skills/job-postings",
+        "./skills/local-businesses",
+        "./skills/markets-and-filings",
+        "./skills/news-coverage",
+        "./skills/prices-and-plans",
+        "./skills/property-listings",
+        "./skills/read-docs",
+        "./skills/read-literature",
+        "./skills/seo-audit",
+        "./skills/video-transcripts"
+      ]
+    }
+  ]
+}
